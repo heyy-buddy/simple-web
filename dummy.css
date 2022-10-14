@@ -1,0 +1,313 @@
+/*section 3*/
+/*
+
+#events3 {
+
+    background-color: rgb(45, 90, 172);
+    width: 100%;
+    padding: 150px;
+    margin: 0%;
+}
+
+// same context
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: whitesmoke;
+}
+
+.line {
+    width: 100px;
+    height: 4px;
+    background: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+//section3
+.simi {
+    font-family: monospace;
+    color: aliceblue;
+    font-size: small;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    padding: 0%;
+    display: flex;
+}
+
+
+
+.bix {
+    width: 200px;
+    margin: 0%;
+    padding: 35px 20px;
+    background-color: rgb(10, 10, 10);
+
+}
+
+.cix {
+    width: 400px;
+    margin: 0%;
+    padding: 20px;
+    background-color: rgb(146, 146, 146);
+}
+
+.cix p {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: larger;
+    color: white;
+}
+
+.teel {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: larger;
+    color: white;
+    padding: 5px;
+}
+
+.seel {
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 2ch;
+    color: rgb(157, 157, 157);
+    padding: 5px;
+}
+
+.imii img {
+    height: 25px;
+    margin: 2px;
+    border-radius: 20px;
+}
+
+.butt {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: larger;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: rgba(253, 255, 254, 0.808);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 80px;
+    color: rgb(51, 47, 26);
+    font-family: Tahoma;
+    font-size: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+
+.rrow {
+    display: flex;
+    width: 100%;
+    margin: 5% 25% 5% 25%;
+
+}
+
+h4 {
+    font-size: 3vmin;
+    color: blanchedalmond;
+    margin: 20px auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="name"],
+input[type="comment"],
+select,
+textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="email"],
+input[type="name"] {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.roi {
+    display: flex;
+}
+
+
+@media only screen and (max-width:850px) {
+
+
+//section 3
+    .rrow {
+        margin: 5px;
+        justify-content: center;
+    }
+
+    .container {
+        width: 200px;
+        height: 300px;
+    }
+
+    .teel,
+    .seel {
+        padding: 3px;
+        font-size: smaller;
+    }
+
+    .bix {
+        width: 160px;
+    }
+
+    .cix {
+        width: 520px;
+    }
+
+
+}
+
+
+*/
+
+/*universal code*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: whitesmoke;
+}
+
+.line {
+    width: 100px;
+    height: 4px;
+    background: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.simi {
+    font-family: monospace;
+    color: aliceblue;
+    font-size: small;
+}
+/*section 0*/
+
+
+.col {
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.manii {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    height: 180px;
+}
+
+.mani{
+    float: left;
+}
+
+.cool{
+    margin: 50px;
+    display: flex;
+}
+
+.spee{
+    padding: 5px;
+    border: 2px solid rgb(199, 199, 211);
+    border-radius: 20px;
+    width: 250px;
+}
+
+
+.spee .simi {
+    padding: 10px;
+}
+
+
+@media only screen and (max-width:850px) {
+    .mani{
+        width: 60%;
+    }
+    #events{
+        padding: 0px;
+        margin: 0;
+        height: 100%;
+        
+    }
+
+    .cool{
+        margin: 25px;
+    }
+    .spee{
+        padding: 1px;
+        border: 1.2px solid rgb(199, 199, 211);
+        width: 180px;
+        
+        margin: 3px;
+    }
+
+    .simi{
+        font-size: 1.7vmin;
+    }
+    .spee .simi{
+        padding: 5px;
+    }
+
+}
